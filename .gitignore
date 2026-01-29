@@ -1,0 +1,242 @@
+# Mobile Presence Mode .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env/
+venv/
+ENV/
+
+# Data files
+data/
+*.npy
+*.npz
+*.mat
+*.csv
+
+# Logs
+*.log
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks
+*.ipynb
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Android build files
+bin/
+obj/
+
+# Large files that shouldn't be in git
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Environment variables
+.env
+.env.local
+
+# Python cache
+.pytest_cache/
+
+# Coverage reports
+.htmlcov/
+.coverage
+
+# MacOS metadata
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Linux trash
+.Trash-*
+*.Trash-*
+
+# Docker
+.Dockerfile.swp
+.dockerignore
+
+# Node.js
+node_modules/
+
+# Compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test output
+/test_results/
+/coverage/
+
+# Personal configuration
+*.config
+*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.caches/
+
+# IDE specific files
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+#*
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# C/C++
+*.o
+*.a
+*.so
+*.la
+*.lo
+*.bak
+*.backup
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+
+# Perl
+*.plc
+*.pdb
+
+# Go
+go.mod
+go.sum
+bin/
+pkg/
+
+# Rust
+target/
+Cargo.lock
+
+# Haskell
+dist/
+dist-newstyle/
+.cabal-sandbox
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# PHP
+vendor/
+composer.phar
+
+# Ruby
+Gemfile.lock
+
+# Swift
+Pods/
+Podfile.lock
+
+# Kotlin
+.build/
+
+# Dart
+.build/
+
+# Flutter
+.build/
+
+# General ignore patterns
+*.log
+*.out
+*.pid
+*.seed
+*.pid
+*.log
+*.out
+*.pid
+*.seed
+*.pid
+*.log
+*.out
+*.pid
+*.seed
+
+# End of .gitignore
