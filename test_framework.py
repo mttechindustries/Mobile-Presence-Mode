@@ -10,6 +10,9 @@ import time
 import numpy as np
 import subprocess
 
+# Add src directory to Python path for module imports
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
 def test_imports():
     """Test that all required imports work"""
     print("Testing imports...")
