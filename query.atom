@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wAax+Cbkeu2qKTqMCLXcSJ3SfU0</id>
+  <title>arXiv Query: search_query=(all:Wi-Fi OR all:CSI OR all:breathing)&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-01-30T17:09:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Wi-Fi+OR+(all:CSI+OR+all:breathing)&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>7580</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1406.3147v1</id>
+    <title>Enhanced capacity &amp; coverage by Wi-Fi LTE Integration</title>
+    <updated>2014-06-12T08:26:47Z</updated>
+    <link href="https://arxiv.org/abs/1406.3147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.3147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wi-Fi provides cost-effective data capacity at hotspots in conjunction with broadband cellular networks. The hotspots are required to capture a large number of users and provide high data rates. Data rates, over the Wi-Fi interface, are influenced by the media access protocol, which loses throughput due to delays and unintended collisions when a large number of users are active. The hotspot range which determines the number of users, that can associate, is limited by the lower power of the client rather than the access point. By diverting the traffic destined to the access point via another access network, both range and efficiency can be improved. This uplink redirection or diversion is achieved by simultaneous use of the Wi-Fi and LTE radio interfaces. Three options - loose, tight, and hybrid integration are presented towards providing enhanced capacity and coverage.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-12T08:26:47Z</published>
+    <arxiv:comment>Submitted as a candidate article for IEEE Communications Magazine, Topic: The Future of Wi-Fi (November 2014)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Jonathan Ling</name>
+    </author>
+    <author>
+      <name>Satish Kanugovi</name>
+    </author>
+    <author>
+      <name>Subramanian Vasudevan</name>
+    </author>
+    <author>
+      <name>A Krishna Pramod</name>
+    </author>
+    <arxiv:doi>10.1109/MCOM.2015.7060499</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/MCOM.2015.7060499" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.04165v2</id>
+    <title>Coexistence of Wi-Fi and Heterogeneous Small Cell Networks Sharing Unlicensed Spectrum</title>
+    <updated>2015-05-05T16:39:48Z</updated>
+    <link href="https://arxiv.org/abs/1502.04165v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.04165v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As two major players in terrestrial wireless communications, Wi-Fi systems and cellular networks have different origins and have largely evolved separately. Motivated by the exponentially increasing wireless data demand, cellular networks are evolving towards a heterogeneous and small cell network architecture, wherein small cells are expected to provide very high capacity. However, due to the limited licensed spectrum for cellular networks, any effort to achieve capacity growth through network densification will face the challenge of severe inter-cell interference. In view of this, recent standardization developments have started to consider the opportunities for cellular networks to use the unlicensed spectrum bands, including the 2.4 GHz and 5 GHz bands that are currently used by Wi-Fi, Zigbee and some other communication systems. In this article, we look into the coexistence of Wi-Fi and 4G cellular networks sharing the unlicensed spectrum. We introduce a network architecture where small cells use the same unlicensed spectrum that Wi-Fi systems operate in without affecting the performance of Wi-Fi systems. We present an almost blank subframe (ABS) scheme without priority to mitigate the co-channel interference from small cells to Wi-Fi systems, and propose an interference avoidance scheme based on small cells estimating the density of nearby Wi-Fi access points to facilitate their coexistence while sharing the same unlicensed spectrum. Simulation results show that the proposed network architecture and interference avoidance schemes can significantly increase the capacity of 4G heterogeneous cellular networks while maintaining the service quality of Wi-Fi systems.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-14T03:50:31Z</published>
+    <arxiv:comment>Haijun Zhang; Xiaoli Chu; Weisi Guo; Siyi Wang, "Coexistence of Wi-Fi and heterogeneous small cell networks sharing unlicensed spectrum," IEEE Communications Magazine, vol.53, no.3, pp.158,164, March 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Haijun Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoli Chu</name>
+    </author>
+    <author>
+      <name>Weisi Guo</name>
+    </author>
+    <author>
+      <name>Siyi Wang</name>
+    </author>
+    <arxiv:doi>10.1109/MCOM.2015.7060498</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/MCOM.2015.7060498" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.00992v1</id>
+    <title>Exposing the CSI: A Systematic Investigation of CSI-based Wi-Fi Sensing Capabilities and Limitations</title>
+    <updated>2023-02-02T10:21:00Z</updated>
+    <link href="https://arxiv.org/abs/2302.00992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.00992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Thanks to the ubiquitous deployment of Wi-Fi hotspots, channel state information (CSI)-based Wi-Fi sensing can unleash game-changing applications in many fields, such as healthcare, security, and entertainment. However, despite one decade of active research on Wi-Fi sensing, most existing work only considers legacy IEEE 802.11n devices, often in particular and strictly-controlled environments. Worse yet, there is a fundamental lack of understanding of the impact on CSI-based sensing of modern Wi-Fi features, such as 160-MHz bandwidth, multiple-input multiple-output (MIMO) transmissions, and increased spectral resolution in IEEE 802.11ax (Wi-Fi 6). This work aims to shed light on the impact of Wi-Fi 6 features on the sensing performance and to create a benchmark for future research on Wi-Fi sensing. To this end, we perform an extensive CSI data collection campaign involving 3 individuals, 3 environments, and 12 activities, using Wi-Fi 6 signals. An anonymized ground truth obtained through video recording accompanies our 80-GB dataset, which contains almost two hours of CSI data from three collectors. We leverage our dataset to dissect the performance of a state-of-the-art sensing framework across different environments and individuals. Our key findings suggest that (i) MIMO transmissions and higher spectral resolution might be more beneficial than larger bandwidth for sensing applications; (ii) there is a pressing need to standardize research on Wi-Fi sensing because the path towards a truly environment-independent framework is still uncertain. To ease the experiments' replicability and address the current lack of Wi-Fi 6 CSI datasets, we release our 80-GB dataset to the community.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-02T10:21:00Z</published>
+    <arxiv:comment>10 pages, 13 figures, accepted for publication in Proceedings of IEEE PerCom 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Marco Cominelli</name>
+    </author>
+    <author>
+      <name>Francesco Gringoli</name>
+    </author>
+    <author>
+      <name>Francesco Restuccia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.05905v1</id>
+    <title>Deep Learning-based CSI Feedback in Wi-Fi Systems</title>
+    <updated>2024-07-08T13:12:02Z</updated>
+    <link href="https://arxiv.org/abs/2407.05905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.05905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In Wi-Fi systems, channel state information (CSI) plays a crucial role in enabling access points to execute beamforming operations. However, the feedback overhead associated with CSI significantly hampers the throughput improvements. Recent advancements in deep learning (DL) have transformed the approach to CSI feedback in cellular systems. Drawing inspiration from the successes witnessed in the realm of mobile communications, this paper introduces a DL-based CSI feedback framework, named EFNet, tailored for Wi-Fi systems. The proposed framework leverages an autoencoder to achieve precise feedback with minimal overhead. The process involves the station utilizing the encoder to compress and quantize a series of matrices into codeword bit streams, which are then fed back to the access point. Subsequently, the decoder installed at the AP reconstructs beamforming matrices from these bit streams. We implement the EFNet system using standard Wi-Fi equipment operating in the 2.4 GHz band. Experimental findings in an office environment reveal a remarkable 80.77% reduction in feedback overhead compared to the 802.11ac standard, alongside a significant boost in net throughput of up to 30.72%.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-08T13:12:02Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Fan Qi</name>
+    </author>
+    <author>
+      <name>Jiajia Guo</name>
+    </author>
+    <author>
+      <name>Yiming Cui</name>
+    </author>
+    <author>
+      <name>Xiangyi Li</name>
+    </author>
+    <author>
+      <name>Chao-Kai Wen</name>
+    </author>
+    <author>
+      <name>Shi Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22133v1</id>
+    <title>HandPass: A Wi-Fi CSI Palm Authentication Approach for Access Control</title>
+    <updated>2025-10-25T03:13:45Z</updated>
+    <link href="https://arxiv.org/abs/2510.22133v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22133v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wi-Fi Channel State Information (CSI) has been extensively studied for sensing activities. However, its practical application in user authentication still needs to be explored. This study presents a novel approach to biometric authentication using Wi-Fi Channel State Information (CSI) data for palm recognition. The research delves into utilizing a Raspberry Pi encased in a custom-built box with antenna power reduced to 1dBm, which was used to capture CSI data from the right hands of 20 participants (10 men and 10 women). The dataset was normalized using MinMax scaling to ensure uniformity and accuracy. By focusing on biophysical aspects such as hand size, shape, angular spread between fingers, and finger phalanx lengths, among other characteristics, the study explores how these features affect electromagnetic signals, which are then reflected in Wi-Fi CSI, allowing for precise user identification. Five classification algorithms were evaluated, with the Random Forest classifier achieving an average F1-Score of 99.82\% using 10-fold cross-validation. Amplitude and Phase data were used, with each capture session recording approximately 1000 packets per second in five 5-second intervals for each User. This high accuracy highlights the potential of Wi-Fi CSI in developing robust and reliable user authentication systems based on palm biometric data.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-25T03:13:45Z</published>
+    <arxiv:comment>9 pages, 4 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Eduardo Fabricio Gomes Trindade</name>
+    </author>
+    <author>
+      <name>Felipe Silveira de Almeida</name>
+    </author>
+    <author>
+      <name>Gioliano de Oliveira Braga</name>
+    </author>
+    <author>
+      <name>Rafael Pimenta de Mattos Paixão</name>
+    </author>
+    <author>
+      <name>Pedro Henrique dos Santos Rocha</name>
+    </author>
+    <author>
+      <name>Lourenco Alves Pereira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.03375v1</id>
+    <title>Efficient Wi-Fi Sensing for IoT Forensics with Lossy Compression of CSI Data</title>
+    <updated>2025-05-06T09:51:48Z</updated>
+    <link href="https://arxiv.org/abs/2505.03375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.03375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wi-Fi sensing is an emerging technology that uses channel state information (CSI) from ambient Wi-Fi signals to monitor human activity without the need for dedicated sensors. Wi-Fi sensing does not only represent a pivotal technology in intelligent Internet of Things (IoT) systems, but it can also provide valuable insights in forensic investigations. However, the high dimensionality of CSI data presents major challenges for storage, transmission, and processing in resource-constrained IoT environments. In this paper, we investigate the impact of lossy compression on the accuracy of Wi-Fi sensing, evaluating both traditional techniques and a deep learning-based approach. Our results reveal that simple, interpretable techniques based on principal component analysis can significantly reduce the CSI data volume while preserving classification performance, making them highly suitable for lightweight IoT forensic scenarios. On the other hand, deep learning models exhibit higher potential in complex applications like activity recognition (achieving compression ratios up to 16000:1 with minimal impact on sensing performance) but require careful tuning and greater computational resources. By considering two different sensing applications, this work demonstrates the feasibility of integrating lossy compression schemes into Wi-Fi sensing pipelines to make intelligent IoT systems more efficient and improve the storage requirements in forensic applications.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-06T09:51:48Z</published>
+    <arxiv:comment>Paper accepted for publication at INTERNATIONAL CONFERENCE ON DISTRIBUTED COMPUTING IN SMART SYSTEMS AND THE INTERNET OF THINGS (DCOSS-IoT 2025) - ISIOT Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Paolo Cerutti</name>
+    </author>
+    <author>
+      <name>Fabio Palmese</name>
+    </author>
+    <author>
+      <name>Marco Cominelli</name>
+    </author>
+    <author>
+      <name>Alessandro E. C. Redondi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.02411v1</id>
+    <title>Can We Monitor Breathing During Sleep via Wi-Fi on Smartphone?</title>
+    <updated>2019-05-07T08:47:46Z</updated>
+    <link href="https://arxiv.org/abs/1905.02411v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.02411v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Over the last decade there has been high interest in home sleep monitoring among research community and society. Smartphone-based sleep monitoring seems to be especially attractive. However, smartphone should be able to register physiological processes for that, such as breathing or heartbeats. In this study, we tried to detect breathing based on the analysis of channel state information (CSI) of Wi-Fi connection between a smartphone and an access point. We collected data of 5 subjects with different body mass index (17-33) in base sleep postures: prone, supine, and side. The obtained CSI-based respiratory signal was compared with ground truth from a contact belt sensor. The mean correlation coefficient between the signals of 0.85 was achieved. The mean absolute difference between respiratory rates (breaths per epoch) is 0.39. The results show that it is possible to use smartphones without additional sensors for registering breathing based on CSI and potentially for sleep monitoring.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-07T08:47:46Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Alexander Tataraidze</name>
+    </author>
+    <author>
+      <name>Roman Olesyuk</name>
+    </author>
+    <author>
+      <name>Mikhail Pikhletsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00373v1</id>
+    <title>Physical-Layer Authentication of Commodity Wi-Fi Devices via Micro-Signals on CSI Curves</title>
+    <updated>2023-08-01T08:33:40Z</updated>
+    <link href="https://arxiv.org/abs/2308.00373v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00373v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a new radiometric fingerprint that is revealed by micro-signals in the channel state information (CSI) curves extracted from commodity Wi-Fi devices. We refer to this new fingerprint as "micro-CSI". Our experiments show that micro-CSI is likely to be caused by imperfections in the radio-frequency circuitry and is present in Wi-Fi 4/5/6 network interface cards (NICs). We conducted further experiments to determine the most effective CSI collection configuration to stabilize micro-CSI. To extract micro-CSI from varying CSI curves, we developed a signal space-based extraction algorithm that effectively separates distortions caused by wireless channels and hardware imperfections under line-of-sight (LoS) scenarios. Finally, we implemented a micro-CSI-based device authentication algorithm that uses the k-Nearest Neighbors (KNN) method to identify 11 COTS Wi-Fi NICs from the same manufacturer in typical indoor environments. Our experimental results demonstrate that the micro-CSI-based authentication algorithm can achieve an average attack detection rate of over 99% with a false alarm rate of 0%.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-01T08:33:40Z</published>
+    <arxiv:comment>5 pages, 3 figures, conference</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Ruiqi Kong</name>
+    </author>
+    <author>
+      <name>He Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.06458v1</id>
+    <title>Reconstructing Depth Images of Moving Objects from Wi-Fi CSI Data</title>
+    <updated>2025-03-09T05:30:33Z</updated>
+    <link href="https://arxiv.org/abs/2503.06458v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.06458v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study proposes a new deep learning method for reconstructing depth images of moving objects within a specific area using Wi-Fi channel state information (CSI). The Wi-Fi-based depth imaging technique has novel applications in domains such as security and elder care. However, reconstructing depth images from CSI is challenging because learning the mapping function between CSI and depth images, both of which are high-dimensional data, is particularly difficult. To address the challenge, we propose a new approach called Wi-Depth. The main idea behind the design of Wi-Depth is that a depth image of a moving object can be decomposed into three core components: the shape, depth, and position of the target. Therefore, in the depth-image reconstruction task, Wi-Depth simultaneously estimates the three core pieces of information as auxiliary tasks in our proposed VAE-based teacher-student architecture, enabling it to output images with the consistency of a correct shape, depth, and position. In addition, the design of Wi-Depth is based on our idea that this decomposition efficiently takes advantage of the fact that shape, depth, and position relate to primitive information inferred from CSI such as angle-of-arrival, time-of-flight, and Doppler frequency shift.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-09T05:30:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Guanyu Cao</name>
+    </author>
+    <author>
+      <name>Takuya Maekawa</name>
+    </author>
+    <author>
+      <name>Kazuya Ohara</name>
+    </author>
+    <author>
+      <name>Yasue Kishino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.23198v2</id>
+    <title>Deep Learning-Based CSI Feedback for Wi-Fi Systems With Temporal Correlation</title>
+    <updated>2025-07-15T02:47:48Z</updated>
+    <link href="https://arxiv.org/abs/2505.23198v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.23198v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To achieve higher throughput in next-generation Wi-Fi systems, a station (STA) needs to efficiently compress channel state information (CSI) and feed it back to an access point (AP). In this paper, we propose a novel deep learning (DL)-based CSI feedback framework tailored for next-generation Wi-Fi systems. Our framework incorporates a pair of encoder and decoder neural networks to compress and reconstruct the angle parameters of the CSI. To enable an efficient finite-bit representation of the encoder output, we introduce a trainable vector quantization module, which is integrated after the encoder network and jointly trained with both the encoder and decoder networks in an end-to-end manner. Additionally, we further enhance our framework by leveraging the temporal correlation of the angle parameters. Specifically, we propose an angle-difference feedback strategy which transmits the difference between the current and previous angle parameters when the difference is sufficiently small. This strategy accounts for the periodicity of the angle parameters through proper preprocessing and mitigates error propagation effects using novel feedback methods. We also introduce a DL-based CSI refinement module for the AP, which improves the reconstruction accuracy of the angle parameters by simultaneously utilizing both the previous and current feedback information. Simulation results demonstrate that our framework outperforms the standard method employed in current Wi-Fi systems. Our results also demonstrate significant performance gains achieved by the angle-difference feedback strategy and the CSI refinement module.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-29T07:35:29Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Junyong Shin</name>
+    </author>
+    <author>
+      <name>Eunsung Jeon</name>
+    </author>
+    <author>
+      <name>Inhyoung Kim</name>
+    </author>
+    <author>
+      <name>Yo-Seb Jeon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00146v1</id>
+    <title>Wi-Fi CSI based Behavior Recognition: From Signals, Actions to Activities</title>
+    <updated>2017-12-01T01:29:28Z</updated>
+    <link href="https://arxiv.org/abs/1712.00146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human behavior recognition has been considered as a core technology that can facilitate variety of applications. However, accurate detection and recognition of human behavior is still a big challenge that attracts a lot of research efforts. Recent advances in the wireless technology (e.g., Wi-Fi Channel State Information, i.e., CSI) enable a new behavior recognition paradigm, which is able to recognize behaviors in a device-free and non-intrusive manner. In this article, we first provide an overview of the basics of Wi-Fi CSI based behavior recognition. Afterwards, we classify related applications into three-granularity: signals, actions and activities, and then provide some insights for designing new schemes. Finally, we conclude by discussing the challenges, possible solutions to these challenges and some open issues involved in CSI based behavior recognition.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-01T01:29:28Z</published>
+    <arxiv:comment>10 pages, 3 figures, 3 tables, IEEE Communications Magazine, 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Zhu Wang</name>
+    </author>
+    <author>
+      <name>Bin Guo</name>
+    </author>
+    <author>
+      <name>Zhiwen Yu</name>
+    </author>
+    <author>
+      <name>Xingshe Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.03957v1</id>
+    <title>SwinFi: a CSI Compression Method based on Swin Transformer for Wi-Fi Sensing</title>
+    <updated>2024-05-07T02:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2405.03957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.03957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wi-Fi sensing is a transformative approach that enables a large of applications through CSI analysis. The challenge lies in the high computational and communication costs with the increasing granularity of CSI data. In this letter, we propose SwinFi, a pioneering solution that compresses CSI at the edge into a succinct feature image and reconstructs at the cloud for further processing. SwinFi employs a Swin Transformer-based autoencoder-decoder architecture that ensures SOTA performance in both CSI reconstruction and sensing tasks. We utilize a dataset for PIR task and conduct extensive experiments to evaluate SwinFi. The results show that SwinFi achieves the reconstruction quality with the NMSE of -37.74dB and the classification accuracy of 95.3% at the same time.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-07T02:44:36Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jichen Bian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.11400v1</id>
+    <title>RSSI-Assisted CSI-Based Passenger Counting with Multiple Wi-Fi Receivers</title>
+    <updated>2024-10-15T08:46:52Z</updated>
+    <link href="https://arxiv.org/abs/2410.11400v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.11400v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Passenger counting is crucial for public transport vehicle scheduling and traffic capacity evaluation. However, most existing methods are either costly or with low counting accuracy, leading to the recent use of Wi-Fi signals for this purpose. In this paper, we develop an efficient edge computing-based passenger counting system consists of multiple Wi-Fi receivers and an edge server. It leverages channel state information (CSI) and received signal strength indicator (RSSI) to facilitate the collaboration among multiple receivers. Specifically, we design a novel CSI feature fusion module called Adaptive RSSI-weighted CSI Feature Concatenation, which integrates locally extracted CSI and RSSI features from multiple receivers for information fusion at the edge server. Performance of our proposed system is evaluated using a real-world dataset collected from a double-decker bus in Hong Kong, with up to 20 passengers. The experimental results reveal that our system achieves an average accuracy and F1-score of over 94%, surpassing other cooperative sensing baselines by at least 2.27% in accuracy and 2.34% in F1-score.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-15T08:46:52Z</published>
+    <arxiv:comment>6 pages, 9 figures, this article was submitted to IEEE for possible publication</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jingtao Guo</name>
+    </author>
+    <author>
+      <name>Wenhao Zhuang</name>
+    </author>
+    <author>
+      <name>Yuyi Mao</name>
+    </author>
+    <author>
+      <name>Ivan Wang-Hei Ho</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.2377v1</id>
+    <title>Geometric and Signal Strength Dilution of Precision (DoP)Wi-Fi</title>
+    <updated>2009-09-12T22:24:52Z</updated>
+    <link href="https://arxiv.org/abs/0909.2377v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.2377v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The democratization of wireless networks combined to the emergence of mobile devices increasingly autonomous and efficient lead to new services. Positioning services become overcrowded. Accuracy is the main quality criteria in positioning. But to better appreciate this one a coefficient is needed. In this paper we present Geometric and Signal Strength Dilution of Precision (DOP) for positioning systems based on Wi-Fi and Signal Strength measurements.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-12T22:24:52Z</published>
+    <arxiv:comment>International Journal of Computer Science Issues (IJCSI), Volume 3, pp35-44, August 2009</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <arxiv:journal_ref>S.Zirari,P. Canalda and F.Spies, " Geometric and Signal Strength Dilution of Precision (DoP)Wi-Fi", International Journal of Computer Science Issues (IJCSI), Volume 3, pp35-44, August 2009</arxiv:journal_ref>
+    <author>
+      <name>Soumaya Zirari</name>
+    </author>
+    <author>
+      <name>Philippe Canalda</name>
+    </author>
+    <author>
+      <name>Francois Spies</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01592v1</id>
+    <title>CarFi: Rider Localization Using Wi-Fi CSI</title>
+    <updated>2022-12-21T19:02:34Z</updated>
+    <link href="https://arxiv.org/abs/2301.01592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rise of hailing services, people are increasingly relying on shared mobility (e.g., Uber, Lyft) drivers to pick up for transportation. However, such drivers and riders have difficulties finding each other in urban areas as GPS signals get blocked by skyscrapers, in crowded environments (e.g., in stadiums, airports, and bars), at night, and in bad weather. It wastes their time, creates a bad user experience, and causes more CO2 emissions due to idle driving. In this work, we explore the potential of Wi-Fi to help drivers to determine the street side of the riders. Our proposed system is called CarFi that uses Wi-Fi CSI from two antennas placed inside a moving vehicle and a data-driven technique to determine the street side of the rider. By collecting real-world data in realistic and challenging settings by blocking the signal with other people and other parked cars, we see that CarFi is 95.44% accurate in rider-side determination in both line of sight (LoS) and non-line of sight (nLoS) conditions, and can be run on an embedded GPU in real-time.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-21T19:02:34Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Sirajum Munir</name>
+    </author>
+    <author>
+      <name>Hongkai Chen</name>
+    </author>
+    <author>
+      <name>Shiwei Fang</name>
+    </author>
+    <author>
+      <name>Mahathir Monjur</name>
+    </author>
+    <author>
+      <name>Shan Lin</name>
+    </author>
+    <author>
+      <name>Shahriar Nirjon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.22143v1</id>
+    <title>UniFi: Combining Irregularly Sampled CSI from Diverse Communication Packets and Frequency Bands for Wi-Fi Sensing</title>
+    <updated>2025-12-14T03:01:31Z</updated>
+    <link href="https://arxiv.org/abs/2512.22143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.22143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing Wi-Fi sensing systems rely on injecting high-rate probing packets to extract channel state information (CSI), leading to communication degradation and poor deployability. Although Integrated Sensing and Communication (ISAC) is a promising direction, existing solutions still rely on auxiliary packet injection because they exploit only CSI from data frames. We present UniFi, the first Wi-Fi-based ISAC framework that fully eliminates intrusive packet injection by directly exploiting irregularly sampled CSI from diverse communication packets across multiple frequency bands. UniFi integrates a CSI sanitization pipeline to harmonize heterogeneous packets and remove burst-induced redundancy, together with a time-aware attention model that learns directly from non-uniform CSI sequences without resampling. We further introduce CommCSI-HAR, the first dataset with irregularly sampled CSI from real-world dual-band communication traffic. Extensive evaluations on this dataset and four public benchmarks show that UniFi achieves state-of-the-art accuracy with a compact model size, while fully preserving communication throughput.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-14T03:01:31Z</published>
+    <arxiv:comment>14 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Gaofeng Dong</name>
+    </author>
+    <author>
+      <name>Kang Yang</name>
+    </author>
+    <author>
+      <name>Mani Srivastava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.00869v2</id>
+    <title>ReWiS: Reliable Wi-Fi Sensing Through Few-Shot Multi-Antenna Multi-Receiver CSI Learning</title>
+    <updated>2022-04-19T18:31:39Z</updated>
+    <link href="https://arxiv.org/abs/2201.00869v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.00869v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Thanks to the ubiquitousness of Wi-Fi access points and devices, Wi-Fi sensing enables transformative applications in remote health care, security, and surveillance. Existing work has explored the usage of machine learning on channel state information (CSI) computed from Wi-Fi packets to classify events of interest. However, most of these algorithms require a significant amount of data collection, as well as extensive computational power for additional CSI feature extraction. Moreover, the majority of these models suffer from poor accuracy when tested in a new/untrained environment. In this paper, we propose ReWiS, a novel framework for robust and environment-independent Wi-Fi sensing. The key innovation of ReWiS is to leverage few-shot learning (FSL) as the inference engine, which (i) reduces the need for extensive data collection and application-specific feature extraction; (ii) can rapidly generalize to new tasks by leveraging only a few new samples. We prototype ReWiS using off-the-shelf Wi-Fi equipment and showcase its performance by considering a compelling use case of human activity recognition. Thus, we perform an extensive data collection campaign in three different propagation environments with two human subjects. We evaluate the impact of each diversity component on the performance and compare ReWiS with a traditional convolutional neural network (CNN) approach. Experimental results show that ReWiS improves the performance by about 40% with respect to existing single-antenna low-resolution approaches. Moreover, when compared to a CNN-based approach, ReWiS shows a 35% more accuracy and less than 10% drop in accuracy when tested in different environments, while the CNN drops by more than 45%.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-03T20:22:39Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Niloofar Bahadori</name>
+    </author>
+    <author>
+      <name>Jonathan Ashdown</name>
+    </author>
+    <author>
+      <name>Francesco Restuccia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.12997v2</id>
+    <title>MORIC: CSI Delay-Doppler Decomposition for Robust Wi-Fi-based Human Activity Recognition</title>
+    <updated>2025-06-20T16:05:46Z</updated>
+    <link href="https://arxiv.org/abs/2506.12997v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.12997v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The newly established IEEE 802.11bf Task Group aims to amend the WLAN standard to support advanced sensing applications such as human activity recognition (HAR). Although studies have demonstrated the potential of sub-7 GHz Wi-Fi Channel State Information (CSI) for HAR, no method currently performs reliably in real-world scenarios. This work tackles the poor generalization of Wi-Fi-based HAR by introducing an innovative approach to extracting and utilizing movement-related representations, which makes it robust to noise and static environmental properties. This is achieved by transforming CSI signals into the delay profile space and decomposing them into various Doppler velocities, which serve as informative projections of a mobile point's velocity from different unknown random angles. To mitigate the impact of this randomness, MORIC is introduced as a novel time series classification model based on random convolutional kernels, designed to be invariant to the random order and repetition of input representations, thereby enabling robust Wi-Fi CSI-based activity classification. Experimental results on the collected dataset demonstrate that the proposed method outperforms state-of-the-art approaches in terms of generalization accuracy for hand motion recognition, particularly for challenging gestures. Furthermore, incorporating a small number of calibration samples leads to a significant improvement in accuracy, enhancing the practicality of the method for real-world deployment.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-15T23:46:49Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Navid Hasanzadeh</name>
+    </author>
+    <author>
+      <name>Shahrokh Valaee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05423v1</id>
+    <title>Let's shake on it: Extracting secure shared keys from Wi-Fi CSI</title>
+    <updated>2023-07-11T16:41:02Z</updated>
+    <link href="https://arxiv.org/abs/2307.05423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A shared secret key is necessary for encrypted communications. Since Wi-Fi relies on OFDM, we suggest a method to generate such a key by utilizing Wi-Fi's channel state information (CSI). CSI is typically reciprocal but very sensitive to location: While the legitimate Alice and Bob observe the same CSI, an eavesdropper Eve observes an uncorrelated CSI when positioned over 0.5 wavelength away. We show that if endpoint Bob is shaken, sufficient diversity is induced in the CSI so that it can serve as a source of true randomness. Then we show that the CSI among neighboring sub-carriers is correlated, so we select a small set of judiciously-spaced sub-carriers, and use a majority rule around each. We demonstrate that Alice and Bob observe a 5-15\% bit mismatch rate (BMR) in the extracted bitstream while Eve observes a BMR of around 50\% even when placed within 10cm of Alice. We employ the cryptography-oriented definition of min-entropy to estimate the number of secure bits within the bitstream, and use the Cascade algorithm of quantum-key-distribution to reconcile Alice and Bob's bitstreams, while quantifying the number of bits leaked by the algorithm. Accounting for both the min-entropy and the cascade leakage we quantify the Secured Bit Generation Rate of our method.
+  We conducted extensive tests in an indoor environment. Our system exhibits a secure bit generation rate of 1.2--1.6 %secure bits per packet, at distances ranging from 0.5m--9m, and can generate a secure shared 128-bit key with 20sec of device shaking.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-11T16:41:02Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Tomer Avrahami</name>
+    </author>
+    <author>
+      <name>Ofer Amrani</name>
+    </author>
+    <author>
+      <name>Avishai Wool</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.11381v2</id>
+    <title>SoK: Security Evaluation of Wi-Fi CSI Biometrics: Attacks, Metrics, and Open Challenges</title>
+    <updated>2025-11-21T18:34:04Z</updated>
+    <link href="https://arxiv.org/abs/2511.11381v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.11381v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wi-Fi Channel State Information (CSI) has been repeatedly proposed as a biometric modality, often with reports of high accuracy and operational feasibility. However, the field lacks a consolidated understanding of its security properties, adversarial resilience, and methodological consistency. This Systematization of Knowledge (SoK) examines CSI-based biometric authentication through a security lens, analyzing how existing works diverge in sensing infrastructure, signal representations, feature pipelines, learning models, and evaluation methodologies. Our synthesis reveals systemic inconsistencies: reliance on aggregate accuracy metrics, limited reporting of FAR/FRR/EER, absence of per-user risk analysis, and scarce consideration of threat models or adversarial feasibility.
+  To this end, we construct a unified evaluation framework to expose these issues empirically and demonstrate how security-relevant metrics such as per-class EER, Frequency Count of Scores (FCS), and the Gini Coefficient uncover risk concentration that remains hidden under traditional reporting practices. The resulting analysis highlights concrete attack surfaces--including replay, geometric mimicry, and environmental perturbation--and shows how methodological choices materially influence vulnerability profiles. Based on these findings, we articulate the security boundaries of current CSI biometrics and provide guidelines for rigorous evaluation, reproducible experimentation, and future research directions. This SoK offers the security community a structured, evidence-driven reassessment of Wi-Fi CSI biometrics and their suitability as an authentication primitive.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-14T15:04:22Z</published>
+    <arxiv:comment>This work was submitted to the 11th IEEE European Symposium on Security and Privacy (IEEE S&amp;P 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Gioliano de Oliveira Braga</name>
+    </author>
+    <author>
+      <name>Pedro Henrique dos Santos Rocha</name>
+    </author>
+    <author>
+      <name>Rafael Pimenta de Mattos Paixão</name>
+    </author>
+    <author>
+      <name>Giovani Hoff da Costa</name>
+    </author>
+    <author>
+      <name>Gustavo Cavalcanti Morais</name>
+    </author>
+    <author>
+      <name>Lourenço Alves Pereira Júnior</name>
+    </author>
+  </entry>
+</feed>

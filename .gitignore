@@ -240,3 +240,4 @@ Podfile.lock
 *.seed
 
 # End of .gitignore
+.aider*

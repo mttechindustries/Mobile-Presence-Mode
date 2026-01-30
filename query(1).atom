@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YQ5ccHNu6baHftPGk4IYz0gAXIY</id>
+  <title>arXiv Query: search_query=(all:channel OR all:state OR all:information OR all:presence OR all:detection)&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-01-30T17:11:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:channel+OR+(all:state+OR+(all:information+OR+(all:presence+OR+all:detection)))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>1146371</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1707.09430v1</id>
+    <title>Human in the Loop: Interactive Passive Automata Learning via Evidence-Driven State-Merging Algorithms</title>
+    <updated>2017-07-28T22:19:50Z</updated>
+    <link href="https://arxiv.org/abs/1707.09430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.09430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an interactive version of an evidence-driven state-merging (EDSM) algorithm for learning variants of finite state automata. Learning these automata often amounts to recovering or reverse engineering the model generating the data despite noisy, incomplete, or imperfectly sampled data sources rather than optimizing a purely numeric target function. Domain expertise and human knowledge about the target domain can guide this process, and typically is captured in parameter settings. Often, domain expertise is subconscious and not expressed explicitly. Directly interacting with the learning algorithm makes it easier to utilize this knowledge effectively.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-28T22:19:50Z</published>
+    <arxiv:comment>4 pages, presented at the Human in the Loop workshop at ICML 2017</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Christian A. Hammerschmidt</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+    <author>
+      <name>Sicco Verwer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.01041v1</id>
+    <title>Estimating the Information Rate of a Channel with Classical Input and Output and a Quantum State (Extended Version)</title>
+    <updated>2017-05-02T16:04:33Z</updated>
+    <link href="https://arxiv.org/abs/1705.01041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.01041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of transmitting classical information over a time-invariant channel with memory. A popular class of time-invariant channels with memory are finite-state-machine channels, where a \emph{classical} state evolves over time and governs the relationship between the classical input and the classical output of the channel. For such channels, various techniques have been developed for estimating and bounding the information rate. In this paper we consider a class of time-invariant channels where a \emph{quantum} state evolves over time and governs the relationship between the classical input and the classical output of the channel. We propose algorithms for estimating and bounding the information rate of such channels. In particular, we discuss suitable graphical models for doing the relevant computations.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-02T16:04:33Z</published>
+    <arxiv:comment>This is an extended version of a paper that appears in Proc. 2017 IEEE International Symposium on Information Theory, Aachen, Germany, June 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>2017 IEEE International Symposium on Information Theory (ISIT), 2017, pp. 3205-3209</arxiv:journal_ref>
+    <author>
+      <name>Michael X. Cao</name>
+    </author>
+    <author>
+      <name>Pascal O. Vontobel</name>
+    </author>
+    <arxiv:doi>10.1109/ISIT.2017.8007121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ISIT.2017.8007121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.00199v3</id>
+    <title>Bounding and Estimating the Classical Information Rate of Quantum Channels with Memory</title>
+    <updated>2020-02-17T14:46:17Z</updated>
+    <link href="https://arxiv.org/abs/1903.00199v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.00199v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the scenario of classical communication over a finite-dimensional quantum channel with memory using a separable-state input ensemble and local output measurements. We propose algorithms for estimating the information rate of such communication setups, along with algorithms for bounding the information rate based on so-called auxiliary channels. Some of the algorithms are extensions of their counterparts for (classical) finite-state-machine channels. Notably, we discuss suitable graphical models for doing the relevant computations. Moreover, the auxiliary channels are learned in a data-driven approach; i.e., only input/output sequences of the true channel are needed, but not the channel model of the true channel.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-01T08:22:02Z</published>
+    <arxiv:comment>This work has been submitted to the IEEE Transactions on Information Theory for possible publication</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Michael X. Cao</name>
+    </author>
+    <author>
+      <name>Pascal O. Vontobel</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2020.2979840</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2020.2979840" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.06344v4</id>
+    <title>Strong Converse Exponent for State Dependent Channels With Full State Information at the Sender</title>
+    <updated>2020-08-10T17:17:38Z</updated>
+    <link href="https://arxiv.org/abs/1603.06344v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.06344v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the state dependent channels with full state information with at the sender. For this state dependent channel, the channel capacity was determined by Gel'fand and Pinsker. In this paper, we study the correct probability of decoding at rates above the capacity. We prove that when the transmission rate is above the capacity this probability goes to zero exponentially and derive an explicit lower bound of this exponent function.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-21T07:47:21Z</published>
+    <arxiv:comment>The present version has 14 pages and one figure. In the previous version we have a gap on the proof of the main result. In the current version we have fixed the gap for the special case that the state information is not available at the receiver</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Yasutada Oohama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.2450v1</id>
+    <title>MIMO Relaying Broadcast Channels with Linear Precoding and Quantized Channel State Information Feedback</title>
+    <updated>2012-05-11T08:10:23Z</updated>
+    <link href="https://arxiv.org/abs/1205.2450v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.2450v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-antenna relaying has emerged as a promising technology to enhance the system performance in cellular networks. However, when precoding techniques are utilized to obtain multi-antenna gains, the system generally requires channel state information (CSI) at the transmitters. We consider a linear precoding scheme in a MIMO relaying broadcast channel with quantized CSI feedback from both two-hop links. With this scheme, each remote user feeds back its quantized CSI to the relay, and the relay sends back the quantized precoding information to the base station (BS). An upper bound on the rate loss due to quantized channel knowledge is first characterized. Then, in order to maintain the rate loss within a predetermined gap for growing SNRs, a strategy of scaling quantization quality of both two-hop links is proposed. It is revealed that the numbers of feedback bits of both links should scale linearly with the transmit power at the relay, while only the bit number of feedback from the relay to the BS needs to grow with the increasing transmit power at the BS. Numerical results are provided to verify the proposed strategy for feedback quality control.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-11T08:10:23Z</published>
+    <arxiv:comment>13pages appeared in IEEE Transactions on Signal Processing</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>W. Xu, X. Dong, and W.-S. Lu "MIMO relaying broadcast channels with linear precoding and quantized channel state information feedback," IEEE Trans. Sig. Proc., vol. 58, no. 10, pp. 5233-5245, Oct. 2010</arxiv:journal_ref>
+    <author>
+      <name>Wei Xu</name>
+    </author>
+    <author>
+      <name>Xiaodai Dong</name>
+    </author>
+    <author>
+      <name>Wu-Sheng Lu</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2010.2056687</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2010.2056687" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.04893v5</id>
+    <title>Channel Leakage, Information-Theoretic Limitations of Obfuscation, and Optimal Privacy Mask Design for Streaming Data</title>
+    <updated>2020-09-29T21:15:37Z</updated>
+    <link href="https://arxiv.org/abs/2008.04893v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.04893v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we first introduce the notion of channel leakage as the minimum mutual information between the channel input and channel output. As its name indicates, channel leakage quantifies the minimum information leakage to the malicious receiver. In a broad sense, it can be viewed as a dual concept of channel capacity, which characterizes the maximum information transmission to the targeted receiver. We obtain explicit formulas of channel leakage for the white Gaussian case, the colored Gaussian case, and the fading case. We then utilize this notion to investigate the fundamental limitations of obfuscation in terms of privacy-distortion tradeoffs (as well as privacy-power tradeoffs) for streaming data; particularly, we derive analytical tradeoff equations for the stationary case, the non-stationary case, and the finite-time case. Our results also indicate explicitly how to design the privacy masks in an optimal way.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-11T17:55:47Z</published>
+    <arxiv:comment>The title was changed from "Channel Leakage and Information Theoretic Privacy-Distortion Tradeoffs for Streaming Data" to the current one on 29th September 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Song Fang</name>
+    </author>
+    <author>
+      <name>Quanyan Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.2311v4</id>
+    <title>An Achievable Rate Region for the Broadcast Channel with Feedback</title>
+    <updated>2013-07-19T15:19:46Z</updated>
+    <link href="https://arxiv.org/abs/1105.2311v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.2311v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A single-letter achievable rate region is proposed for the two-receiver discrete memoryless broadcast channel with generalized feedback. The coding strategy involves block-Markov superposition coding, using Marton's coding scheme for the broadcast channel without feedback as the starting point. If the message rates in the Marton scheme are too high to be decoded at the end of a block, each receiver is left with a list of messages compatible with its output. Resolution information is sent in the following block to enable each receiver to resolve its list. The key observation is that the resolution information of the first receiver is correlated with that of the second. This correlated information is efficiently transmitted via joint source-channel coding, using ideas similar to the Han-Costa coding scheme. Using the result, we obtain an achievable rate region for the stochastically degraded AWGN broadcast channel with noisy feedback from only one receiver. It is shown that this region is strictly larger than the no-feedback capacity region.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-11T20:36:06Z</published>
+    <arxiv:comment>To appear in IEEE Transactions on Information Theory. Contains example of AWGN Broadcast Channel with noisy feedback</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>IEEE Transactions on Information Theory, vol. 59, no.10, pp. 6175 - 6191, Oct. 2013</arxiv:journal_ref>
+    <author>
+      <name>Ramji Venkataramanan</name>
+    </author>
+    <author>
+      <name>S. Sandeep Pradhan</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2013.2268532</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2013.2268532" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.6091v3</id>
+    <title>Calculation of Mutual Information for Partially Coherent Gaussian Channels with Applications to Fiber Optics</title>
+    <updated>2011-04-08T21:50:31Z</updated>
+    <link href="https://arxiv.org/abs/1003.6091v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.6091v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The mutual information between a complex-valued channel input and its complex-valued output is decomposed into four parts based on polar coordinates: an amplitude term, a phase term, and two mixed terms. Numerical results for the additive white Gaussian noise (AWGN) channel with various inputs show that, at high signal-to-noise ratio (SNR), the amplitude and phase terms dominate the mixed terms. For the AWGN channel with a Gaussian input, analytical expressions are derived for high SNR. The decomposition method is applied to partially coherent channels and a property of such channels called "spectral loss" is developed. Spectral loss occurs in nonlinear fiber-optic channels and it may be one effect that needs to be taken into account to explain the behavior of the capacity of nonlinear fiber-optic channels presented in recent studies.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-31T16:22:59Z</published>
+    <arxiv:comment>30 pages, 9 figures, accepted for publication in IEEE Transactions on Information Theory</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>IEEE Trans. Information Theory 57 (2011) 5720-5736</arxiv:journal_ref>
+    <author>
+      <name>Bernhard Goebel</name>
+    </author>
+    <author>
+      <name>René-Jean Essiambre</name>
+    </author>
+    <author>
+      <name>Gerhard Kramer</name>
+    </author>
+    <author>
+      <name>Peter J. Winzer</name>
+    </author>
+    <author>
+      <name>Norbert Hanik</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2011.2162187</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2011.2162187" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.1869v1</id>
+    <title>Degraded Broadcast Diamond Channels with Non-Causal State Information at the Source</title>
+    <updated>2012-03-08T18:04:19Z</updated>
+    <link href="https://arxiv.org/abs/1203.1869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.1869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A state-dependent degraded broadcast diamond channel is studied where the source-to-relays cut is modeled with two noiseless, finite-capacity digital links with a degraded broadcasting structure, while the relays-to-destination cut is a general multiple access channel controlled by a random state. It is assumed that the source has non-causal channel state information and the relays have no state information. Under this model, first, the capacity is characterized for the case where the destination has state information, i.e., has access to the state sequence. It is demonstrated that in this case, a joint message and state transmission scheme via binning is optimal. Next, the case where the destination does not have state information, i.e., the case with state information at the source only, is considered. For this scenario, lower and upper bounds on the capacity are derived for the general discrete memoryless model. Achievable rates are then computed for the case in which the relays-to-destination cut is affected by an additive Gaussian state. Numerical results are provided that illuminate the performance advantages that can be accrued by leveraging non-causal state information at the source.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-08T18:04:19Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Information Theory, Feb. 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Min Li</name>
+    </author>
+    <author>
+      <name>Osvaldo Simeone</name>
+    </author>
+    <author>
+      <name>Aylin Yener</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.0932v2</id>
+    <title>Joint Source-Channel Coding with Time-Varying Channel and Side-Information</title>
+    <updated>2015-05-26T12:22:25Z</updated>
+    <link href="https://arxiv.org/abs/1312.0932v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.0932v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transmission of a Gaussian source over a time-varying Gaussian channel is studied in the presence of time-varying correlated side information at the receiver. A block fading model is considered for both the channel and the side information, whose states are assumed to be known only at the receiver. The optimality of separate source and channel coding in terms of average end-to-end distortion is shown when the channel is static while the side information state follows a discrete or a continuous and quasiconcave distribution. When both the channel and side information states are time-varying, separate source and channel coding is suboptimal in general. A partially informed encoder lower bound is studied by providing the channel state information to the encoder. Several achievable transmission schemes are proposed based on uncoded transmission, separate source and channel coding, joint decoding as well as hybrid digital-analog transmission. Uncoded transmission is shown to be optimal for a class of continuous and quasiconcave side information state distributions, while the channel gain may have an arbitrary distribution. To the best of our knowledge, this is the first example in which the uncoded transmission achieves the optimal performance thanks to the time-varying nature of the states, while it is suboptimal in the static version of the same problem. Then, the optimal \emph{distortion exponent}, that quantifies the exponential decay rate of the expected distortion in the high SNR regime, is characterized for Nakagami distributed channel and side information states, and it is shown to be achieved by hybrid digital-analog and joint decoding schemes in certain cases, illustrating the suboptimality of pure digital or analog transmission in general.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-03T20:53:25Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Information Theory</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Iñaki Estella Aguerri</name>
+    </author>
+    <author>
+      <name>Deniz Gündüz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.04924v1</id>
+    <title>A New and More General Capacity Theorem for the Gaussian Channel with Two-sided Input-Noise Dependent State Information</title>
+    <updated>2015-07-17T11:12:03Z</updated>
+    <link href="https://arxiv.org/abs/1507.04924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.04924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, a new and general version of Gaussian channel in presence of two-sided state information correlated to the channel input and noise is considered. Determining a general achievable rate for the channel and obtaining the capacity in a non-limiting case, we try to analyze and solve the Gaussian version of the Cover-Chiang theorem -as an open problem- mathematically and information-theoretically. Our capacity theorem, while including all previous theorems as its special cases, explains situations that can not be analyzed by them; for example, the effect of the correlation between the side information and the channel input on the capacity of the channel that can not be analyzed with Costa's "writing on dirty paper" theorem. Meanwhile, we try to introduce our new idea, i.e., describing the concept of "cognition" of a communicating object (transmitter, receiver, relay and so on) on some variable (channel noise, interference and so on) with the information-theoretic concept of "side information" correlated to that variable and known by the object. According to our theorem, the channel capacity is an increasing function of the mutual information of the side information and the channel noise. Therefore our channel and its capacity theorem exemplify the "cognition" of the transmitter and receiver on the channel noise based on the new description. Our capacity theorem has interesting interpretations originated from this new idea.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-17T11:12:03Z</published>
+    <arxiv:comment>submitted to IEEE Transactions on Information Theory</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Nima S. Anzabi-Nezhad</name>
+    </author>
+    <author>
+      <name>Ghosheh Abed Hodtani</name>
+    </author>
+    <author>
+      <name>Mohammad Molavi Kakhki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.2089v2</id>
+    <title>Capacity-achieving Feedback Scheme for Gaussian Finite-State Markov Channels with Channel State Information</title>
+    <updated>2010-10-07T04:03:25Z</updated>
+    <link href="https://arxiv.org/abs/0808.2089v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.2089v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose capacity-achieving communication schemes for Gaussian finite-state Markov channels (FSMCs) subject to an average channel input power constraint, under the assumption that the transmitters can have access to delayed noiseless output feedback as well as instantaneous or delayed channel state information (CSI). We show that the proposed schemes reveals connections between feedback communication and feedback control.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-15T03:53:57Z</published>
+    <arxiv:comment>Submitted to the IEEE Transactions on Information Theory. 31 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Jialing Liu</name>
+    </author>
+    <author>
+      <name>Nicola Elia</name>
+    </author>
+    <author>
+      <name>Sekhar Tatikonda</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2015.2437380</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2015.2437380" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.0291v4</id>
+    <title>Mismatched Quantum Filtering and Entropic Information</title>
+    <updated>2014-01-27T14:10:58Z</updated>
+    <link href="https://arxiv.org/abs/1310.0291v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.0291v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum filtering is a signal processing technique that estimates the posterior state of a quantum system under continuous measurements and has become a standard tool in quantum information processing, with applications in quantum state preparation, quantum metrology, and quantum control. If the filter assumes a nominal model that differs from reality, however, the estimation accuracy is bound to suffer. Here I derive identities that relate the excess error caused by quantum filter mismatch to the relative entropy between the true and nominal observation probability measures, with one identity for Gaussian measurements, such as optical homodyne detection, and another for Poissonian measurements, such as photon counting. These identities generalize recent seminal results in classical information theory and provide new operational meanings to relative entropy, mutual information, and channel capacity in the context of quantum experiments.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-01T13:36:42Z</published>
+    <arxiv:comment>v1: first draft, 8 pages, v2: added introduction and more results on mutual information and channel capacity, 12 pages, v3: minor updates, v4: updated the presentation</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Proceedings of IEEE International Symposium on Information Theory, Honolulu, Hawaii, USA, June 29-July 4 2014, pp. 321-325</arxiv:journal_ref>
+    <author>
+      <name>Mankei Tsang</name>
+    </author>
+    <arxiv:doi>10.1109/ISIT.2014.6874847</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ISIT.2014.6874847" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.4467v1</id>
+    <title>Molecular Recognition as an Information Channel: The Role of Conformational Changes</title>
+    <updated>2010-07-26T14:08:35Z</updated>
+    <link href="https://arxiv.org/abs/1007.4467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.4467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Molecular recognition, which is essential in processing information in biological systems, takes place in a crowded noisy biochemical environment and requires the recognition of a specific target within a background of various similar competing molecules. We consider molecular recognition as a transmission of information via a noisy channel and use this analogy to gain insights on the optimal, or fittest, molecular recognizer. We focus on the optimal structural properties of the molecules such as flexibility and conformation. We show that conformational changes upon binding, which often occur during molecular recognition, may optimize the detection performance of the recognizer. We thus suggest a generic design principle termed 'conformational proofreading' in which deformation enhances detection. We evaluate the optimal flexibility of the molecular recognizer, which is analogous to the stochasticity in a decision unit. In some scenarios, a flexible recognizer, i.e., a stochastic decision unit, performs better than a rigid, deterministic one. As a biological example, we discuss conformational changes during homologous recombination, the process of genetic exchange between two DNA strands.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-26T14:08:35Z</published>
+    <arxiv:comment>Keywords--Molecular information channels, molecular recognition, conformational proofreading. http://www.weizmann.ac.il/complex/tlusty/papers/IEEE2009b.pdf</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <arxiv:journal_ref>Workshop on Biological and Bio-Inspired Information Theory, 43rd Annual Conference on Information Sciences and Systems, March 18-20, 2009 2009 , Page(s): 835 - 840</arxiv:journal_ref>
+    <author>
+      <name>Yonatan Savir</name>
+    </author>
+    <author>
+      <name>Tsvi Tlusty</name>
+    </author>
+    <arxiv:doi>10.1109/CISS.2009.5054833</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CISS.2009.5054833" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.0755v1</id>
+    <title>Message and State Cooperation in a Relay Channel When the Relay Has Strictly Causal State Information</title>
+    <updated>2011-02-03T19:41:59Z</updated>
+    <link href="https://arxiv.org/abs/1102.0755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.0755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A state-dependent relay channel is studied in which strictly causal channel state information is available at the relay and no state information is available at the source and destination. Source and relay are connected via two unidirectional out-of-band orthogonal links of finite capacity, and a state-dependent memoryless channel connects source and relay, on one side, and the destination, on the other. Via the orthogonal links, the source can convey information about the message to be delivered to the destination to the relay while the relay can forward state information to the source. This exchange enables cooperation between source and relay on both transmission of message and state information to the destination. First, an achievable scheme, inspired by noisy network coding, is proposed that exploits both message and state cooperation. Next, based on the given achievable rate and appropriate upper bounds, capacity results are identified for some special cases. Finally, a Gaussian model is studied, along with corresponding numerical results that illuminate the relative merits of state and message cooperation.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-03T19:41:59Z</published>
+    <arxiv:comment>6 pages, 3 figures, to appear in Information Theory and Applications Workshop, February 2011</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Min Li</name>
+    </author>
+    <author>
+      <name>Osvaldo Simeone</name>
+    </author>
+    <author>
+      <name>Aylin Yener</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.00626v3</id>
+    <title>The Challenge of Non-Technical Loss Detection using Artificial Intelligence: A Survey</title>
+    <updated>2017-07-25T04:25:54Z</updated>
+    <link href="https://arxiv.org/abs/1606.00626v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.00626v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detection of non-technical losses (NTL) which include electricity theft, faulty meters or billing errors has attracted increasing attention from researchers in electrical engineering and computer science. NTLs cause significant harm to the economy, as in some countries they may range up to 40% of the total electricity distributed. The predominant research direction is employing artificial intelligence to predict whether a customer causes NTL. This paper first provides an overview of how NTLs are defined and their impact on economies, which include loss of revenue and profit of electricity providers and decrease of the stability and reliability of electrical power grids. It then surveys the state-of-the-art research efforts in a up-to-date and comprehensive review of algorithms, features and data sets used. It finally identifies the key scientific and engineering challenges in NTL detection and suggests how they could be addressed in the future.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-02T11:14:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>International Journal of Computational Intelligence Systems (IJCIS), vol. 10, issue 1, pp. 760-775, 2017</arxiv:journal_ref>
+    <author>
+      <name>Patrick Glauner</name>
+    </author>
+    <author>
+      <name>Jorge Augusto Meira</name>
+    </author>
+    <author>
+      <name>Petko Valtchev</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+    <author>
+      <name>Franck Bettinger</name>
+    </author>
+    <arxiv:doi>10.2991/ijcis.2017.10.1.51</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2991/ijcis.2017.10.1.51" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.1239v1</id>
+    <title>The Capacity of Three-Receiver AWGN Broadcast Channels with Receiver Message Side Information</title>
+    <updated>2014-01-06T23:45:43Z</updated>
+    <link href="https://arxiv.org/abs/1401.1239v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.1239v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the capacity region of three-receiver AWGN broadcast channels where the receivers (i) have private-message requests and (ii) know the messages requested by some other receivers as side information. We classify these channels based on their side information into eight groups, and construct different transmission schemes for the groups. For six groups, we characterize the capacity region, and show that it improves both the best known inner and outer bounds. For the remaining two groups, we improve the best known inner bound by using side information during channel decoding at the receivers.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-06T23:45:43Z</published>
+    <arxiv:comment>This is an extended version of the same-titled paper submitted to IEEE International Symposium on Information Theory (ISIT) 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>Proceedings of the 2014 IEEE International Symposium on Information Theory (ISIT 2014), Honolulu, USA, pp. 2899-2903, June 29-July 4, 2014</arxiv:journal_ref>
+    <author>
+      <name>Behzad Asadi</name>
+    </author>
+    <author>
+      <name>Lawrence Ong</name>
+    </author>
+    <author>
+      <name>Sarah J. Johnson</name>
+    </author>
+    <arxiv:doi>10.1109/ISIT.2014.6875364</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ISIT.2014.6875364" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.5112v4</id>
+    <title>Achievable Rates for Channels with Deletions and Insertions</title>
+    <updated>2013-07-19T14:57:16Z</updated>
+    <link href="https://arxiv.org/abs/1102.5112v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.5112v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers a binary channel with deletions and insertions, where each input bit is transformed in one of the following ways: it is deleted with probability d, or an extra bit is added after it with probability i, or it is transmitted unmodified with probability 1-d-i. A computable lower bound on the capacity of this channel is derived. The transformation of the input sequence by the channel may be viewed in terms of runs as follows: some runs of the input sequence get shorter/longer, some runs get deleted, and some new runs are added. It is difficult for the decoder to synchronize the channel output sequence to the transmitted codeword mainly due to deleted runs and new inserted runs.
+  The main idea is a mutual information decomposition in terms of the rate achieved by a sub-optimal decoder that determines the positions of the deleted and inserted runs in addition to decoding the transmitted codeword. The mutual information between the channel input and output sequences is expressed as the sum of the rate achieved by this decoder and the rate loss due to its sub-optimality. Obtaining computable lower bounds on each of these quantities yields a lower bound on the capacity. The bounds proposed in this paper provide the first characterization of achievable rates for channels with general insertions, and for channels with both deletions and insertions. For the special case of the deletion channel, the proposed bound improves on the previous best lower bound for deletion probabilities up to 0.3.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-24T21:55:58Z</published>
+    <arxiv:comment>To appear in IEEE Transactions on Information Theory. For the deletion channel, the new capacity lower bound improves on the previous best bound for deletion probabilities up to 0.3</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>IEEE Transactions on Information Theory, vol. 59, no.11, pp. 6990-7013, Nov. 2013</arxiv:journal_ref>
+    <author>
+      <name>Ramji Venkataramanan</name>
+    </author>
+    <author>
+      <name>Sekhar Tatikonda</name>
+    </author>
+    <author>
+      <name>Kannan Ramchandran</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2013.2278181</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2013.2278181" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.1159v1</id>
+    <title>Ordering Finite-State Markov Channels by Mutual Information</title>
+    <updated>2007-05-08T20:48:18Z</updated>
+    <link href="https://arxiv.org/abs/0705.1159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.1159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In previous work, an ordering result was given for the symbolwise probability of error using general Markov channels, under iterative decoding of LDPC codes. In this paper, the ordering result is extended to mutual information, under the assumption of an iid input distribution. For certain channels, in which the capacity-achieving input distribution is iid, this allows ordering of the channels by capacity. The complexity of analyzing general Markov channels is mitigated by this ordering, since it is possible to immediately determine that a wide class of channels, with different numbers of states, has a smaller mutual information than a given channel.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-08T20:48:18Z</published>
+    <arxiv:comment>5 pages, no figures. To be presented at the 2007 IEEE International Symposium on Information Theory, Nice, France, June 2007</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Andrew W. Eckford</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.1617v2</id>
+    <title>Asynchronous Transmission over Single-User State-Dependent Channels</title>
+    <updated>2015-03-29T09:44:44Z</updated>
+    <link href="https://arxiv.org/abs/1402.1617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.1617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several channels with asynchronous side information are introduced. We first consider single-user state-dependent channels with asynchronous side information at the transmitter. It is assumed that the state information sequence is a possibly delayed version of the state sequence, and that the encoder and the decoder are aware of the fact that the state information might be delayed. It is additionally assumed that an upper bound on the delay is known to both encoder and decoder, but other than that, they are ignorant of the actual delay. We consider both the causal and the noncausal cases and present achievable rates for these channels, and the corresponding coding schemes. We find the capacity of the asynchronous Gel'fand-Pinsker channel with feedback. Finally, we consider a memoryless state dependent channel with asynchronous side information at both the transmitter and receiver, and establish a single-letter expression for its capacity.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-07T12:28:17Z</published>
+    <arxiv:comment>The paper "On channels with asynchronous side information" was split into two separate papers: the enclosed paper which considers only point-to-point channels and an additional paper named "On the multiple access channel with asynchronous cognition" which discusses the multiuser setups</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Michal Yemini</name>
+    </author>
+    <author>
+      <name>Anelia Somekh-Baruch</name>
+    </author>
+    <author>
+      <name>Amir Leshem</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2015.2476477</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2015.2476477" title="doi"/>
+  </entry>
+</feed>

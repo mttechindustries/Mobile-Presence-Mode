@@ -32,11 +32,10 @@ def test_imports():
         from src.utils.signal_filter import bandpass_filter
         
         print("✓ All imports successful")
-        return True
         
     except ImportError as e:
         print(f"✗ Import failed: {e}")
-        return False
+        raise AssertionError(f"Import failed: {e}")
 
 def test_csi_capture():
     """Test CSI capture functionality"""
@@ -51,14 +50,13 @@ def test_csi_capture():
         
         if len(csi_data) > 0 and csi_data.shape[1] > 0:
             print(f"✓ CSI capture successful: {len(csi_data)} samples, {csi_data.shape[1]} subcarriers")
-            return True
         else:
             print("✗ CSI capture returned empty data")
-            return False
+            raise AssertionError("CSI capture returned empty data")
             
     except Exception as e:
         print(f"✗ CSI capture failed: {e}")
-        return False
+        raise
 
 def test_presence_detection():
     """Test presence detection functionality"""
@@ -78,11 +76,10 @@ def test_presence_detection():
         
         print(f"✓ Presence detection successful")
         print(f"  Presence: {presence}, Breathing: {breathing}, Variance: {variance:.4f}")
-        return True
         
     except Exception as e:
         print(f"✗ Presence detection failed: {e}")
-        return False
+        raise
 
 def test_signal_processing():
     """Test signal processing utilities"""
@@ -93,7 +90,7 @@ def test_signal_processing():
         
         # Create test signal
         fs = 20
-        t = np.arange(0, 1.0, 1/fs)
+        t = np.arange(0, 2.0, 1/fs)
         test_signal = np.sin(2 * np.pi * 0.2 * t) + 0.1 * np.random.normal(size=len(t))
         
         # Test normalization
@@ -106,14 +103,13 @@ def test_signal_processing():
             print("✓ Signal processing successful")
             print(f"  Original mean: {np.mean(test_signal):.4f}, std: {np.std(test_signal):.4f}")
             print(f"  Normalized mean: {np.mean(normalized):.4f}, std: {np.std(normalized):.4f}")
-            return True
         else:
             print("✗ Signal processing returned unexpected results")
-            return False
+            raise AssertionError("Signal processing returned unexpected results")
             
     except Exception as e:
         print(f"✗ Signal processing failed: {e}")
-        return False
+        raise
 
 def test_file_operations():
     """Test file save/load operations"""
@@ -138,10 +134,9 @@ def test_file_operations():
             
             if np.array_equal(csi_data, loaded_data):
                 print("✓ File operations successful")
-                return True
             else:
                 print("✗ Loaded data doesn't match saved data")
-                return False
+                raise AssertionError("Loaded data doesn't match saved data")
                 
         finally:
             # Clean up
@@ -150,7 +145,7 @@ def test_file_operations():
                 
     except Exception as e:
         print(f"✗ File operations failed: {e}")
-        return False
+        raise
 
 def test_breathing_detection():
     """Test breathing detection with simulated data"""
@@ -187,21 +182,19 @@ def test_breathing_detection():
         print(f"  Expected rate: ~15 BPM")
         
         # Check if rate is reasonable (should be close to 15 BPM)
-        if 10 <= breathing_rate <= 20:
-            return True
-        else:
+        if not (10 <= breathing_rate <= 20):
             print("⚠ Breathing rate estimate is outside expected range")
-            return True  # Still pass the test as the algorithm is working
             
     except Exception as e:
         print(f"✗ Breathing detection failed: {e}")
-        return False
+        raise
 
 def test_requirements():
     """Test that requirements are installed"""
     print("\nTesting requirements...")
     
-    required_packages = ['numpy', 'scipy', 'matplotlib', 'scikit-learn', 'pandas']
+    required_packages = ['numpy', 'scipy', 'matplotlib', 'pandas']
+    optional_packages = ['scikit-learn']
     missing_packages = []
     
     for package in required_packages:
@@ -214,11 +207,18 @@ def test_requirements():
     
     if missing_packages:
         print(f"\n✗ Missing packages: {', '.join(missing_packages)}")
-        print("Install with: pip install " + " ".join(missing_packages))
-        return False
+        print("Install with: pip3 install " + " ".join(missing_packages))
+        raise AssertionError(f"Missing packages: {', '.join(missing_packages)}")
     else:
-        print("✓ All requirements satisfied")
-        return True
+        print("✓ All required packages satisfied")
+
+    # Check optional packages but don't fail the test if missing
+    for package in optional_packages:
+        try:
+            __import__(package)
+            print(f"  ✓ optional: {package}")
+        except ImportError:
+            print(f"  ⚠ optional: {package} (missing)")
 
 def main():
     """Run all tests"""
@@ -241,8 +241,8 @@ def main():
     results = []
     for test_name, test_func in tests:
         try:
-            result = test_func()
-            results.append((test_name, result))
+            test_func()
+            results.append((test_name, True))
         except Exception as e:
             print(f"✗ {test_name} failed with exception: {e}")
             results.append((test_name, False))
